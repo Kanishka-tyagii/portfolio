@@ -1,0 +1,169 @@
+html{
+    scroll-behavior: smooth;
+}
+#home{
+    height: 740px;
+    
+}
+.service-file{
+    width: 100%;
+    border: none;
+}
+iframe{
+    height: 100vh;
+    
+}
+.person{
+    height: 700px;
+    width: 800px;
+    
+}
+.about-element{
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+.main-line p{
+    width: 340px;
+    color: white;
+    
+}
+.line{
+    font-size: 45px;
+}
+.line2{
+    font-size: 20px;
+}
+#contact{
+    height: 740px;
+    
+    
+}
+.laptop{
+    height: 750px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+
+   /* background: #081b29;*/
+    background: url(bg3.png);
+    color: #ededed;
+}
+.header{
+    position: fixed;
+    top:0;
+    left: 0;
+    width:100% ;
+    padding:20px 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(5, 5, 5);
+    z-index: 100;
+}
+.logo{
+    font-size: 25px;
+    font-weight: 600;
+    color: #ededed;
+    text-decoration: none;
+}
+.navbar a{
+    font-size: 18px;
+    color: #ededed;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: 0.3;
+}
+.navbar{
+    transition: 0.3s;
+}
+.navbar a:hover{
+    color:#48023d;
+}
+.left-container{
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    bottom: 0px;
+   
+    width: 5%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.right-container{
+    
+    margin-left: 80px;
+    width: 500px;
+    margin-top: 130px;
+
+    
+
+}
+
+.fb_logo,.linkedin_logo , .twitter_logo{
+    height: 40px;
+    margin-left: 5px;
+}
+.linkedin_logo{
+    background-color: white;
+    border-radius: 48%;
+   
+}
+.insta_logo{
+    height: 52px;
+}
+.name{
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: 700;
+    margin-bottom: 18px;
+}
+.profile{
+    font-size: 30px;
+    color: #41054f;
+    font-weight: 700;
+    margin-bottom: 11px;
+}
+.btn-box{
+    margin-top: 42px;
+}
+button a{
+    margin-right: 24px;
+    text-decoration: none;
+    color: #c3dfe8;
+    transition: color 0.2 ease;
+}
+button{
+    width: 150px;
+    font-size: 20px;
+    background: transparent;
+    transition: 0.3S;
+    border-radius: 8px;
+    border: solid 1px #48023d;
+    padding: 14px;
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+button:hover a{
+    color: #ededed;
+
+}
+button:hover{
+    background:#6c0484;
+    opacity: 0.8;
+    transform: scale(1.1);
+    
+}
